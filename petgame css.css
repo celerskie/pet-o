@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.hp-bar {
+    width: 100px;
+    height: 20px;
+    background-color: red;
+    margin: 10px auto;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.hp-bar-inner {
+    height: 100%;
+    background-color: green;
+    width: 100%;
+    position: absolute;
+}
+
+#pet-image, #enemy-image {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+#status-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.status-item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 200px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.status-item span {
+    font-weight: bold;
+}
+
+#currency {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#stats-menu {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 200px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#stats-menu div {
+    margin: 10px 0;
+}
+
+#stats-menu button {
+    margin-left: 10px;
+}
+
+.character-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#shop {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 200px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#shop div {
+    margin: 10px 0;
+}
+
+#shop button {
+    margin-left: 10px;
+}
+
+#wheel-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 200px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#wheel {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #ccc;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#wheel div {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    transform-origin: 100% 100%;
+}
+
+#wheel div:nth-child(1) {
+    transform: rotate(0deg);
+    background-color: #ff9999;
+}
+
+#wheel div:nth-child(2) {
+    transform: rotate(60deg);
+    background-color: #99ff99;
+}
+
+#wheel div:nth-child(3) {
+    transform: rotate(120deg);
+    background-color: #9999ff;
+}
+
+#wheel div:nth-child(4) {
+    transform: rotate(180deg);
+    background-color: #ffff99;
+}
+
+#wheel div:nth-child(5) {
+    transform: rotate(240deg);
+    background-color: #ff99ff;
+}
+
+#wheel div:nth-child(6) {
+    transform: rotate(300deg);
+    background-color: #99ffff;
+}
+
+#spin-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#spin-button:hover {
+    background-color: #45a049;
+}
